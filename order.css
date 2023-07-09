@@ -1,0 +1,47 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(187, 224, 245);
+    
+}
+
+header{
+    background-color: rgb(143, 199, 224);
+    padding: 15px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+main{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    background-color:rgb(185, 185, 238) ;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.item:hover{
+    background-color: red;
+    color: white;
+}
+#last-item{
+    background-color:  white;
+}
+
+li span {
+    float: right;
+}
